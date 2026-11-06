@@ -6,7 +6,7 @@ A single-file interactive birthday surprise: `index.html` (Three.js + canvas-con
 
 ## Customise
 - **Name:** change `BIRTHDAY_NAME` at the top of the `<script type="module">` in `index.html`.
-- **Photos:** look for `<!-- PHOTO_1 -->`, `<!-- PHOTO_2 -->`, `<!-- PHOTO_3 -->` and change each `src` (and `object-position` to adjust framing). Images live in `photos/`.
+- **Photos:** embedded in `index.html` as data URIs so the single file always works. Look for `<!-- PHOTO_1 -->`, `<!-- PHOTO_2 -->`, `<!-- PHOTO_3 -->` and change each `src` (and `object-position` to adjust framing). Images live in `photos/`.
 - **Captions / letter text:** edit them inline in `index.html`.
 
 ## Run locally
